@@ -1,0 +1,85 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* stylying the pricing box */
+
+.pricing-box {
+    background-color: aqua;
+    height: 490px;
+    width: 100%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: hsl(232, 13%, 33%);
+    margin: 5% 0% 10% 0%;
+}
+
+h3 {
+    font-size: 18px;
+    color: hsl(232, 13%, 33%);
+    padding-top: 3%
+}
+
+h4 {
+    font-size: 15px;
+    color: hsl(232, 13%, 33%);
+    margin: 6%
+}
+
+div.break {
+    background-color: hsl(234, 14%, 74%);
+    width: 75%;
+    height: 1px;
+    margin-left: 12%;
+}
+
+button {
+    margin: 8%;
+    padding: 3% 29%;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+.basic {
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 22%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.professional {
+    background-color: rgb(19, 180, 140);
+    height: 80%;
+    width: 22%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.white {
+    color: hsl(240, 78%, 98%);
+}
+
+button.white {
+    color: hsl(276, 80%, 71%)
+}
+
+.pro2 {
+    color: hsl(234, 14%, 74%);
+}
+
+.master {
+    background-color: rgb(226, 43, 217);
+    height: 80%;
+    width: 22%;
+    border-radius: 10px;
+    text-align: center;
+}
