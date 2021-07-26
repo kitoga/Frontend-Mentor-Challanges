@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(243, 223, 223); */
+}
+
+/* starting elements styles */
+h2{
+    font-size: 50px;
+    color: hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.h2_style{
+    padding-bottom: 25px;
+}
+
+h3{
+    font-size: 25px;
+    color: hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+h4{
+    font-size: 15px;
+    color: hsl(233, 8%, 62%);;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: lighter;
+}
+
+/* ending elements styles */
+
+li, a, button{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 6%;
+    position: absolute;
+    z-index: 2;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navbar_links{
+    list-style: none;
+}
+
+.navbar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-weight: 300;
+}
+
+.navbar_links li a{
+    transition: all 0.3s ease 0s;
+    color: hsl(233, 8%, 62%);
+}
+
+button{
+    padding: 9px 30px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: white;
+}
+
+/* starting hero section styles */
+
+#hero{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    background-color: hsl(0, 0%, 98%);
+    position: relative;
+    z-index: 1;
+    top: 60px;
+}
+
+/* starting left div */
+.left{
+    height: 100%;
+    width: 45%;
+    margin-top: 100px;
+    /* margin-left: 30px; */
+    padding-left: 100px;
+}
+
+.hero-p{
+    font-size: 15px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    padding-bottom: 40px;
+    color: hsl(233, 8%, 62%);
+}
+
+
+
+/* Ending left div */
+.right{
+    height: 100%;
+    width: 55%;
+    margin-left: 30px;
+    background-image: url('../easybank-landing-page-master/images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-bg{
+    height: 450px;
+    width: 100%;
+    padding-left:40px;
+    margin-right: 0px;
+    /* background-color: palevioletred; */
+}
+
+.img-bg > .img-mockup{
+    height: 140%;
+    width: 40%;
+    right: 0px;
+    margin-top: 100px;
+    position: absolute;
+    top: 0px;
+    margin-top: -100px;
+}
+
+/* ending the hero section */
+
+#why-section{
+    height: 540px;
+    width: 100%;
+    z-index: 3;
+    background-color: hsl(220, 16%, 96%);;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.why{
+    font-size: 35px;
+    padding-top: 60px;
+}
+
+.hero-paren{
+    padding-bottom: 70px;
+}
+
+.why-container{
+    height: 300px;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: left;
+}
+
+#why-content{
+    padding-right: 85px;
+}
+
+
+
+
+
+h{
+    color: hsl(233, 8%, 62%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+h1{
+    color: hsl(220, 16%, 96%);
+    background: hsl(0, 0%, 100%);
+}
