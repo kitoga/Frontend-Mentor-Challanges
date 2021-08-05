@@ -30,11 +30,25 @@ h3{
 
 h4{
     font-size: 15px;
-    color: hsl(233, 8%, 62%);;
+    color: hsl(233, 8%, 62%);
     font-family: 'Public Sans', sans-serif;
     font-weight: lighter;
 }
 
+h5{
+    font-size: 20px;
+    color: hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: lighter;
+}
+
+h6{
+    font-size: 11px;
+    color: hsl(233, 8%, 62%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: lighter;
+    padding: 10px 0 8px 0;
+}
 /* ending elements styles */
 
 li, a, button{
@@ -89,7 +103,7 @@ button{
 /* starting hero section styles */
 
 #hero{
-    height: 550px;
+    height: 635px;
     width: 100%;
     display: flex;
     background-color: hsl(0, 0%, 98%);
@@ -118,7 +132,7 @@ button{
 
 
 
-/* Ending left div */
+/* -------------------------Ending left div--------------------------- */
 .right{
     height: 100%;
     width: 55%;
@@ -139,7 +153,7 @@ button{
 
 .img-bg > .img-mockup{
     height: 140%;
-    width: 40%;
+    width: 47%;
     right: 0px;
     margin-top: 100px;
     position: absolute;
@@ -147,7 +161,7 @@ button{
     margin-top: -100px;
 }
 
-/* ending the hero section */
+/* --------------------------ending the hero section-------------------- */
 
 #why-section{
     height: 540px;
@@ -155,13 +169,12 @@ button{
     z-index: 3;
     background-color: hsl(220, 16%, 96%);;
     margin-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0 100px 0 100px;
 }
 
 .why{
     font-size: 35px;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .hero-paren{
@@ -171,7 +184,7 @@ button{
 .why-container{
     height: 300px;
     width: 100%;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 15px 0px;
     display: flex;
     justify-content: left;
 }
@@ -180,16 +193,42 @@ button{
     padding-right: 85px;
 }
 
-
-
-
-
-h{
-    color: hsl(233, 8%, 62%);
+/* Starting the landing articles section */
+.landing-article{
+    width: 100%;
+    height: 650px;
     background-color: hsl(0, 0%, 98%);
+    padding: 0px 100px 20px 100px;
 }
 
-h1{
-    color: hsl(220, 16%, 96%);
-    background: hsl(0, 0%, 100%);
+.articles{
+    display: flex;
+    justify-content: left;
+}
+
+#articles-content{
+    width: 23%;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#articles-content > .landing-images{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.article-text{
+    padding: 10px 20px;
+}
+
+#articles-content > .article-text > p{
+    font-size: 15px;
+    color: hsl(233, 8%, 62%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: lighter;
+    padding: 10px 0 8px 0;
 }
