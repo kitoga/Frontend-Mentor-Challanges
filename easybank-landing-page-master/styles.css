@@ -232,3 +232,69 @@ button{
     font-weight: lighter;
     padding: 10px 0 8px 0;
 }
+
+/* starting footer section */
+footer{
+    height: 170px;
+    width: 100%;
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    padding-left: 100px;
+}
+
+.logo-icons{
+    padding: 30px 100px 30px 10px;
+    justify-items: space-between;
+}
+
+.footer-logo{
+    background-color: #fff;
+    height: 30px;
+}
+
+.footer_icons{
+    list-style: none;
+    padding-top: 40px;
+}
+
+.icons{
+    height: 23px;
+}
+
+.footer_icons li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 300;
+}
+
+.buttom-links{
+    display: flex;
+    padding: 10px 100px;
+}
+
+.buttom-list{
+    list-style: none;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.buttom-list > li {
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.buttom-list > li > a {
+    color: #fff;
+}
+
+.footer-right{
+    display: grid;
+    text-align: right;
+    justify-content: right;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+/* .footer-right > a> button{
+    margin-bottom: 10px;
+} */
